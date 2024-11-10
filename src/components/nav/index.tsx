@@ -1,6 +1,6 @@
 export function Nav() {
   return (
-    <nav className="flex items-center">
+    <nav className="flex items-center px-4">
       <ul className="text-white flex font-Montserrat px-5 gap-20">
         <li>Home</li>
         <li>Projects</li>
