@@ -31,7 +31,7 @@ export function Footer() {
       {/* Social Media Links */}
       <div className="flex gap-5">
         <a
-          href="https://www.linkedin.com/in/your-profile"
+          href="https://www.linkedin.com/in/oddvarzk"
           target="_blank"
           rel="noopener noreferrer"
         >
