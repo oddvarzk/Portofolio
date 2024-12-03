@@ -4,13 +4,46 @@ import github from "../../assets/github.png";
 
 export function Footer() {
   return (
-    <footer className="flex justify-center border-t-2 border-t-neutral-700 gap-5">
-      <div>
-        <img src={logo} className="h-20"></img>
+    <footer className="flex flex-col items-center border-t-2 border-t-neutral-700 py-5 gap-4 bg-neutral-900 text-Cream font-Montserrat">
+      {/* Logo Section */}
+      <div className="flex items-center gap-5">
+        <img src={logo} className="h-20" alt="Logo" />
+        <div className="text-center">
+          <p className="text-sm">
+            © {new Date().getFullYear()} Zakarias Portfolio. All rights
+            reserved.
+          </p>
+        </div>
       </div>
-      <div className="flex items-center justify-center text-Cream font-Montserrat text-sm gap-5">
-        <img src={linkedin} className="bg-Cream h-8" />
-        <img src={github} className="h-8" />
+
+      {/* Contact Information */}
+      <div className="flex flex-col items-center gap-2 text-center font-Montserrat">
+        <p className=" text-md">Contact me:</p>
+        <a
+          href="mailto:your-email@example.com"
+          className="hover:underline text-sm"
+        >
+          oddvarzk@gmail.com
+        </a>
+        <p className="font-Montserrat text-sm">Phone: +47 472 07 143</p>
+      </div>
+
+      {/* Social Media Links */}
+      <div className="flex gap-5">
+        <a
+          href="https://www.linkedin.com/in/your-profile"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={linkedin} className="h-8 bg-white" alt="LinkedIn" />
+        </a>
+        <a
+          href="https://github.com/oddvarzk"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={github} className="h-8" alt="GitHub" />
+        </a>
       </div>
     </footer>
   );
