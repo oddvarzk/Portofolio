@@ -14,7 +14,11 @@ export function Footer() {
             reserved.
           </p>
         </div>
-        <div className="flex gap-5">
+      </div>
+
+      {/* Contact Information */}
+      <div className="flex flex-col items-center gap-2 text-center font-Montserrat">
+      <div className="flex gap-5">
         <a
           href="https://www.linkedin.com/in/oddvarzk"
           target="_blank"
@@ -30,10 +34,6 @@ export function Footer() {
           <img src={github} className="h-8" alt="GitHub" />
         </a>
       </div>
-      </div>
-
-      {/* Contact Information */}
-      <div className="flex flex-col items-center gap-2 text-center font-Montserrat">
         <a
           href="mailto:your-email@example.com"
           className="hover:underline text-sm"
