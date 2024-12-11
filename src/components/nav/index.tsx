@@ -56,17 +56,17 @@ export function Nav() {
       >
         <li className="hover:underline mt-2">
           <Link to="/about" onClick={() => setIsOpen(false)}>
-            About
+            1. About me
           </Link>
         </li>
         <li className="hover:underline mt-2">
           <Link to="/projects" onClick={() => setIsOpen(false)}>
-            Projects
+            2. Projects
           </Link>
         </li>
         <li className="hover:underline mt-2">
           <Link to="/contact" onClick={() => setIsOpen(false)}>
-            Contact
+            3. Contact
           </Link>
         </li>
       </ul>
