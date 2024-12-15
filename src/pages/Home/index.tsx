@@ -53,7 +53,7 @@ export function Home() {
         </div>
       </div>
       {/* add more content here */}
-      <h1 className="text-center text-Cream font-Montserrat text-2xl font-extralight py-5">
+      <h1 className="text-center text-Cream font-Montserrat text-2xl font-extralight py-5 mt-5">
         Recent projects I've made
       </h1>
       <div className="flex justify-center flex-wrap py-5">
