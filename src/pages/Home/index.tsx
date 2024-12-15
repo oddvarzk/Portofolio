@@ -34,6 +34,9 @@ export function Home() {
 
             <div className="text-center py-6">
               <p className="mb-2">This website is made with:</p>
+              <p className="mb-2 text-sm">
+                Vite, React, Typescript and Tailwind
+              </p>
               <div className="flex justify-center h-8 gap-2">
                 <img src={viteSVG} alt="Vite Logo" className="h-full" />
                 <img
