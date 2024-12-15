@@ -18,30 +18,18 @@ export function Footer() {
 
       {/* Contact Information */}
       <div className="flex flex-col items-center gap-2 text-center font-Montserrat">
-      <div className="flex gap-5">
-        <a
-          href="https://www.linkedin.com/in/oddvarzk"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src={linkedin} className="h-8 bg-white" alt="LinkedIn" />
-        </a>
-        <a
-          href="https://github.com/oddvarzk"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src={github} className="h-8" alt="GitHub" />
-        </a>
-      </div>
-        <a
-          href="mailto:your-email@example.com"
-          className="hover:underline text-sm"
-        >
+        <div className="flex gap-5">
+          <a href="https://www.linkedin.com/in/oddvar-zakarias-kristiansen-22b583262/">
+            <img src={linkedin} className="h-8 bg-white" alt="LinkedIn" />
+          </a>
+          <a href="https://github.com/oddvarzk">
+            <img src={github} className="h-8" alt="GitHub" />
+          </a>
+        </div>
+        <a href="mailto:oddvarzk@gmail.com" className="hover:underline text-sm">
           oddvarzk@gmail.com
         </a>
         <p className="font-Montserrat text-sm">Phone: +47 472 07 143</p>
-        
       </div>
     </footer>
   );
