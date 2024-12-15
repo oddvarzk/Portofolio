@@ -56,8 +56,8 @@ export function Home() {
       <h1 className="text-center text-Cream font-Montserrat text-2xl font-extralight py-5 mt-5">
         Recent projects I've made
       </h1>
-      <div className="flex justify-center flex-wrap py-5">
-        <div className="px-3">
+      <div className="flex justify-center flex-wrap py-5 gap-5">
+        <div className="px-3 mb-5">
           <div className="w-fit">
             <img
               className="w-72 h-36 object-fit md:w-96 md:h-52"
@@ -78,7 +78,7 @@ export function Home() {
             </div>
           </div>
         </div>
-        <div className="px-3">
+        <div className="px-3 mb-5">
           <div className="w-fit">
             <img
               className="w-72 h-36 object-fit md:w-96 md:h-52"
@@ -99,7 +99,7 @@ export function Home() {
             </div>
           </div>
         </div>
-        <div className="px-3">
+        <div className="px-3 mb-5">
           <div className="w-fit">
             <img
               className="w-72 h-36 object-fit md:w-96 md:h-52"
