@@ -10,7 +10,7 @@ export function Home() {
     <div className="mt-5 px-5 py-3">
       <div
         id="home"
-        className="flex flex-col md:flex-row justify-center text-Cream gap-10 font-Montserrat items-center"
+        className="flex flex-col md:flex-row justify-center text-Cream gap-10 font-Montserrat items-center mb-10"
       >
         <div className="w-full md:w-1/2">
           <h2 className="text-lg py-2 font-light">
@@ -57,6 +57,48 @@ export function Home() {
         Recent projects I've made
       </h1>
       <div className="flex justify-center flex-wrap py-5">
+        <div className="px-3">
+          <div className="w-fit">
+            <img
+              className="w-72 h-36 object-fit md:w-96 md:h-52"
+              src={holidazeHome}
+            ></img>
+          </div>
+          <div className="text-Cream font-Montserrat">
+            <h3 className="text-center">
+              Holidaze{" "}
+              <span className="text-gray-200 text-sm">(Booking Website)</span>
+            </h3>
+            <h3 className="text-center text-sm py-1">Coded with:</h3>
+            <div className="flex justify-center h-8 gap-1">
+              <img src={viteSVG} alt="Vite Icon"></img>
+              <img src={tailwindIcon} alt="Tailwind Icon" />
+              <img src={reactIcon} alt="React Logo" />
+              <img src={typescriptIcon} alt="Typescript Logo" />
+            </div>
+          </div>
+        </div>
+        <div className="px-3">
+          <div className="w-fit">
+            <img
+              className="w-72 h-36 object-fit md:w-96 md:h-52"
+              src={holidazeHome}
+            ></img>
+          </div>
+          <div className="text-Cream font-Montserrat">
+            <h3 className="text-center">
+              Holidaze{" "}
+              <span className="text-gray-200 text-sm">(Booking Website)</span>
+            </h3>
+            <h3 className="text-center text-sm py-1">Coded with:</h3>
+            <div className="flex justify-center h-8 gap-1">
+              <img src={viteSVG} alt="Vite Icon"></img>
+              <img src={tailwindIcon} alt="Tailwind Icon" />
+              <img src={reactIcon} alt="React Logo" />
+              <img src={typescriptIcon} alt="Typescript Logo" />
+            </div>
+          </div>
+        </div>
         <div className="px-3">
           <div className="w-fit">
             <img
