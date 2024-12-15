@@ -50,23 +50,23 @@ export function Nav() {
 
       {/* Navigation Links */}
       <ul
-        className={`flex-col font-normal font-Montserrat md:justify-center md:flex md:flex-row gap-10 px-5 py-6 ${
+        className={`flex-col font-light font-Montserrat md:justify-center md:flex md:flex-row gap-10 px-5 py-6 ${
           isOpen ? "flex mt-10" : "hidden mt-4"
         } md:mt-0`}
       >
         <li className="hover:underline mt-2">
           <Link to="/about" onClick={() => setIsOpen(false)}>
-            1. About me
+            <span className="font-Playfair text-xl">1.</span> About me
           </Link>
         </li>
         <li className="hover:underline mt-2">
           <Link to="/projects" onClick={() => setIsOpen(false)}>
-            2. Projects
+            <span className="font-Playfair text-xl">2.</span> Projects
           </Link>
         </li>
         <li className="hover:underline mt-2">
           <Link to="/contact" onClick={() => setIsOpen(false)}>
-            3. Contact
+            <span className="font-Playfair text-xl">3.</span> Contact
           </Link>
         </li>
       </ul>
